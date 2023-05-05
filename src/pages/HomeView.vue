@@ -93,7 +93,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
         <!-- Masthead Avatar Image-->
         <img
           class="masthead-avatar mb-5"
-          src="../assets/img/Head Only.jpg"
+          src="../assets/img/Head-Only.jpg"
           alt="..."
         />
         <!-- Masthead Heading-->
@@ -221,7 +221,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/HTML logo.png"
+                      src="../assets/img/Languages/HTML-logo.png"
                       alt="HTML logo"
                     />
                   </div>
@@ -234,7 +234,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/CSS logo.png"
+                      src="../assets/img/Languages/CSS-logo.png"
                       alt="CSS logo"
                     />
                   </div>
@@ -247,7 +247,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Javascript Logo.png"
+                      src="../assets/img/Languages/Javascript-Logo.png"
                       alt="Javascript logo"
                     />
                   </div>
@@ -260,7 +260,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Typescript logo.png"
+                      src="../assets/img/Languages/Typescript-logo.png"
                       alt="Typescript logo"
                     />
                   </div>
@@ -273,7 +273,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Vue logo.png"
+                      src="../assets/img/Languages/Vue-logo.png"
                       alt="Vue logo"
                     />
                   </div>
@@ -286,7 +286,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Angular Logo.png"
+                      src="../assets/img/Languages/Angular-Logo.png"
                       alt="Angular logo"
                     />
                   </div>
@@ -299,7 +299,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Node JS logo.png"
+                      src="../assets/img/Languages/Node-JS-logo.png"
                       alt="Node logo"
                     />
                   </div>
@@ -312,7 +312,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Csharp logo.png"
+                      src="../assets/img/Languages/Csharp-logo.png"
                       alt="Csharp logo"
                     />
                   </div>
@@ -325,7 +325,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Mongodb logo.png"
+                      src="../assets/img/Languages/Mongodb-logo.png"
                       alt="Mongodb logo"
                     />
                   </div>
@@ -351,7 +351,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/RXJS logo.png"
+                      src="../assets/img/Languages/RXJS-logo.png"
                       alt="RXJS logo"
                     />
                   </div>
@@ -364,7 +364,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/NestJs logo.svg"
+                      src="../assets/img/Languages/NestJs-logo.svg"
                       alt="Nest logo"
                     />
                   </div>
@@ -377,7 +377,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Konva logo.png"
+                      src="../assets/img/Languages/Konva-logo.png"
                       alt="Konva logo"
                     />
                   </div>
@@ -390,7 +390,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Bootstrap logo.png"
+                      src="../assets/img/Languages/Bootstrap-logo.png"
                       alt="Bootstrap logo"
                     />
                   </div>
@@ -403,7 +403,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Auth0 Logo.png"
+                      src="../assets/img/Languages/Auth0-Logo.png"
                       alt="Auth0 logo"
                     />
                   </div>
@@ -432,7 +432,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                   <div class="testimonial text-white">
                     <div class="testimonial-img">
                       <img
-                        src="../assets/img/Headshots/Tristan img.jpg"
+                        src="../assets/img/Headshots/Tristan-img.jpg"
                         alt="Tristan Johns Headshot"
                       />
                     </div>
@@ -459,7 +459,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                   <div class="testimonial text-white">
                     <div class="testimonial-img">
                       <img
-                        src="../assets/img/Headshots/John img.jpg"
+                        src="../assets/img/Headshots/John-img.jpg"
                         alt="John Melo Headshot"
                       />
                     </div>
@@ -487,7 +487,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                   <div class="testimonial text-white">
                     <div class="testimonial-img">
                       <img
-                        src="../assets/img/Headshots/Ethan img.jpg"
+                        src="../assets/img/Headshots/Ethan-img.jpg"
                         alt="Ethan Johnson Headshot"
                       />
                     </div>
@@ -509,7 +509,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                   <div class="testimonial text-white">
                     <div class="testimonial-img">
                       <img
-                        src="../assets/img/Headshots/Jonesy img.jpg"
+                        src="../assets/img/Headshots/Jonesy-img.jpg"
                         alt="Michael A. Jones Headshot"
                       />
                     </div>
