@@ -49,7 +49,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
 </script>
 
 <template>
-    <body id="page-top">
+    <main id="page-top" style="margin:0;">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container px-4 px-lg-5">
@@ -97,15 +97,15 @@ responsiveNavItems.map(function (responsiveNavItem) {
           alt="..."
         />
         <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0">Jarrod Payton</h1>
+        <h1 class="c-w masthead-heading text-uppercase mb-0">Jarrod Payton</h1>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
           <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-icon"><i class="fas fa-star c-w"></i></div>
           <div class="divider-custom-line"></div>
         </div>
         <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">
+        <p class="c-w masthead-subheading font-weight-light mb-0">
           A full stack software developer with a passion for personal growth.
         </p>
       </div>
@@ -115,8 +115,8 @@ responsiveNavItems.map(function (responsiveNavItem) {
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 d-flex justify-content-center">
           <div class="col-lg-8">
-            <h2 class="text-white mb-3">About Me</h2>
-            <p class="text-white-50">
+            <h2 class="c-w mb-3">About Me</h2>
+            <p class="c-w">
               I am a full stack software developer with a passion for expanding
               my skill set. Whenever it comes to my life beyond the office I
               very much enjoy playing video games, watching anime, and working
@@ -606,7 +606,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
         </div>
       </div>
     </section>
-    </body>
+  </main>
 </template>
 
 <style scoped>
@@ -680,6 +680,10 @@ responsiveNavItems.map(function (responsiveNavItem) {
   :root {
     scroll-behavior: smooth;
   }
+}
+
+.c-w {
+  color:white;
 }
 
 body {
@@ -12300,6 +12304,7 @@ body {
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
+  color:white;
   padding: 10px;
   font-size: 1.25rem;
 }
