@@ -96,7 +96,9 @@ responsiveNavItems.map(function (responsiveNavItem) {
           alt="..."
         />
         <!-- Masthead Heading-->
+        <RouterLink to="/about">
         <h1 class="c-w masthead-heading text-uppercase mb-0">Jarrod Payton</h1>
+        </Routerlink>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
           <div class="divider-custom-line"></div>
