@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ? '/Vue-Landing-Page/' : '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '' : '/',
   };
