@@ -14,7 +14,7 @@
     console.log('Path', path, 'Search', search, 'URL', url)
 
         // Prevent redirect loop
-        if (!url.endsWith(".html")) {
+        if (url.endsWith(".html")) {
       window.location.replace(url);
     }
   </script>
