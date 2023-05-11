@@ -4,8 +4,13 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script>
-    // Redirect to index.html
-    window.location.href = '/index.html';
+    // // Redirect to index.html
+    // window.location.href = '/index.html';
+    // Preserve original URL path and use HTML5 History API
+    const path = window.location.pathname.replace(/\/index\.html$/, '');
+    const search = window.location.search;
+    const url = path + search;
+    window.location.replace(url);
   </script>
 </head>
 <body>
