@@ -10,7 +10,11 @@
     const path = window.location.pathname.replace(/\/index\.html$/, '');
     const search = window.location.search;
     const url = path + search;
-    window.location.replace(url);
+
+        // Prevent redirect loop
+        if (window.location.href !== url) {
+      window.location.replace(url);
+    }
   </script>
 </head>
 <body>
