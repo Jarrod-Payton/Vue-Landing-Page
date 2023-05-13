@@ -59,7 +59,7 @@
         </div>
         <!-- Masthead Subheading-->
         <p class="c-w masthead-subheading font-weight-light mb-0">
-          A full stack software developer with a passion for personal growth.
+          A full stack software developer with a passion for personal growth and business.
         </p>
       </div>
     </header>
@@ -69,7 +69,7 @@
         <div class="row gx-4 gx-lg-5 d-flex justify-content-center">
           <div class="col-lg-8">
             <h2 class="c-w mb-3">About Me</h2>
-            <p class="c-w">
+            <p class="c-w font">
               I am a full stack software developer with a passion for expanding
               my skill set. Whenever it comes to my life beyond the office I
               very much enjoy playing video games, watching anime, and working
@@ -100,7 +100,7 @@
           <div class="col-xl-4 col-lg-5 text-center order-lg-2">
             <div class="featured-text text-center">
               <h4>Good Ol' Days</h4>
-              <p class="text-black-50 mb-0">
+              <p class="text-black-50 mb-0 font">
                 Good Ol' Days is an application created with the goal of
                 creating memories between family and friends. This application
                 was developed by myself and 4 classmates during my time at
@@ -133,7 +133,7 @@
           <div class="col-xl-4 col-lg-5 order-lg-1">
             <div class="featured-text-2 text-center">
               <h4>Vault Keeper</h4>
-              <p class="text-black-50 mb-0">
+              <p class="text-black-50 mb-0 font">
                 Keeper is a social media application that allows the user to
                 post images with captions as well as store other users' posts in
                 a vault (similar to how an album stores images) that can be
@@ -163,7 +163,7 @@
             </div>
             <div class="description p-3">
               <div class="text-center">
-                <p>
+                <p class="font">
                   These are a list of plug in's and languages I have used in my
                   experience as a software developer.
                 </p>
@@ -393,7 +393,7 @@
                       <h4>Tristan Johns</h4>
                     </div>
                     <div class="testimonial-description">
-                      <p class="text-center">
+                      <p class="text-center font">
                         Lucas is committed to developing his skills as a
                         software developer and it shows in both his achievements
                         and his efforts in class. I have no doubt that if he
@@ -420,7 +420,7 @@
                       <h4>Joao "John" Melo</h4>
                     </div>
                     <div class="testimonial-description">
-                      <p class="text-center">
+                      <p class="text-center font">
                         I've had the pleasure to have Lucas as a fellow
                         developer going through Boise Codeworks and to work on
                         the same project (Capstone) together as part of a team
@@ -448,7 +448,7 @@
                       <h4>Ethan Johnson</h4>
                     </div>
                     <div class="testimonial-description">
-                      <p class="text-center">
+                      <p class="text-center font">
                         I got the pleasure of working with Lucas on a social
                         media application. He worked incredibly hard throughout
                         the whole process and delivered when needed. He never
@@ -470,7 +470,7 @@
                       <h4>Michael A. Jones</h4>
                     </div>
                     <div class="testimonial-description">
-                      <p class="text-center">
+                      <p class="text-center font">
                         I was a Teaching Assistant for Lucas at CodeWorks and
                         have to say, he is not only talented but showed his
                         talent and understanding towards the foundation of
@@ -8454,6 +8454,10 @@ textarea.form-control-lg {
 
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
+}
+
+.font {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .fs-1 {
