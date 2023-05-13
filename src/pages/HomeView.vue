@@ -48,9 +48,9 @@
           alt="..."
         />
         <!-- Masthead Heading-->
-        <RouterLink to="/links">
+        <!-- <RouterLink to="/links"> -->
         <h1 class="c-w masthead-heading text-uppercase mb-0">Jarrod Payton</h1>
-        </Routerlink>
+        <!-- </Routerlink> -->
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
           <div class="divider-custom-line"></div>
@@ -526,7 +526,7 @@
                 <i class="fas fa-envelope text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Email</h4>
                 <hr class="my-4 mx-auto" />
-                <div class="small text-black-50">
+                <div class="small text-black-50 font">
                   <a href="#!">jarrodlpayton@gmail.com</a>
                 </div>
               </div>
@@ -538,7 +538,7 @@
                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Phone</h4>
                 <hr class="my-4 mx-auto" />
-                <div class="small text-black-50">+1 (208) 789-9140</div>
+                <div class="small text-black-50 font">+1 (208) 789-9140</div>
               </div>
             </div>
           </div>
