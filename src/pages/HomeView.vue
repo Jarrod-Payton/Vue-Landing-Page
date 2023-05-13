@@ -1,51 +1,3 @@
-<script setup>
-
-window.addEventListener('DOMContentLoaded', event => {
-
-// Navbar shrink function
-var navbarShrink = function () {
-    const navbarCollapsible = document.body.querySelector('#mainNav');
-    if (!navbarCollapsible) {
-        return;
-    }
-    if (window.scrollY === 0) {
-        navbarCollapsible.classList.remove('navbar-shrink')
-    } else {
-        navbarCollapsible.classList.add('navbar-shrink')
-    }
-
-};
-
-// Shrink the navbar 
-navbarShrink();
-
-// Shrink the navbar when page is scrolled
-document.addEventListener('scroll', navbarShrink);
-
-// Activate Bootstrap scrollspy on the main nav element
-const mainNav = document.body.querySelector('#mainNav');
-if (mainNav) {
-    new bootstrap.ScrollSpy(document.body, {
-        target: '#mainNav',
-        offset: 74,
-    });
-};
-
-// Collapse responsive navbar when toggler is visible
-const navbarToggler = document.body.querySelector('.navbar-toggler');
-const responsiveNavItems = [].slice.call(
-    document.querySelectorAll('#navbarResponsive .nav-link')
-);
-responsiveNavItems.map(function (responsiveNavItem) {
-    responsiveNavItem.addEventListener('click', () => {
-        if (window.getComputedStyle(navbarToggler).display !== 'none') {
-            navbarToggler.click();
-        }
-    });
-});
-
-});
-</script>
 
 <template>
     <main id="page-top" style="margin:0;">
@@ -96,7 +48,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
           alt="..."
         />
         <!-- Masthead Heading-->
-        <RouterLink to="/about">
+        <RouterLink to="/links">
         <h1 class="c-w masthead-heading text-uppercase mb-0">Jarrod Payton</h1>
         </Routerlink>
         <!-- Icon Divider-->
@@ -134,16 +86,16 @@ responsiveNavItems.map(function (responsiveNavItem) {
       <div class="container px-4 px-lg-5">
         <!-- Featured Project Row 1-->
         <div
-          class="row gx-0 mb-lg-5 me-md-1 d-flex justify-content-center align-items-center"
+        class="row gx-0 mb-lg-5 me-md-1 d-flex justify-content-center align-items-center"
         >
           <div class="col-xl-4 col-lg-5 text-center order-lg-1">
             <a href="https://good-ol-days.herokuapp.com/#/" target="_blank">
               <img
-                class="featured-img mb-3 mb-lg-0"
+              class="featured-img mb-3 mb-lg-0"
                 src="../assets/img/good-ol-days.png"
                 alt="..."
-              />
-            </a>
+                />
+              </a>
           </div>
           <div class="col-xl-4 col-lg-5 text-center order-lg-2">
             <div class="featured-text text-center">
@@ -154,7 +106,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 was developed by myself and 4 classmates during my time at
                 <a href="https://boisecodeworks.com" target="_blank">
                   Boise Codeworks</a
-                >
+                  >
                 . This application runs off of a Vue front end, Node Js back
                 end, and a Mongodb database with Firebase utilization for the
                 storing of images. Because it utilizes Mongodb and Firebase as
@@ -168,7 +120,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
         <!-- Featured Project Row 2-->
         <div
           class="row gx-0 mb-lg-5 ms-md-1 d-flex justify-content-center align-items-center"
-        >
+          >
           <div class="col-xl-4 col-lg-5 text-center order-lg-2">
             <a href="https://keeps-and-vaults.herokuapp.com/#/" target="_blank">
               <img
@@ -235,10 +187,10 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/CSS-logo.png"
+                    src="../assets/img/Languages/CSS-logo.png"
                       alt="CSS logo"
-                    />
-                  </div>
+                      />
+                    </div>
                   <div class="name">
                     <p>CSS</p>
                   </div>
@@ -250,7 +202,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                     <img
                       src="../assets/img/Languages/Javascript-Logo.png"
                       alt="Javascript logo"
-                    />
+                      />
                   </div>
                   <div class="name">
                     <p>Javascript</p>
@@ -274,8 +226,8 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Vue-logo.png"
-                      alt="Vue logo"
+                    src="../assets/img/Languages/Vue-logo.png"
+                    alt="Vue logo"
                     />
                   </div>
                   <div class="name">
@@ -313,7 +265,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Csharp-logo.png"
+                    src="../assets/img/Languages/Csharp-logo.png"
                       alt="Csharp logo"
                     />
                   </div>
@@ -326,8 +278,8 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Mongodb-logo.png"
-                      alt="Mongodb logo"
+                    src="../assets/img/Languages/Mongodb-logo.png"
+                    alt="Mongodb logo"
                     />
                   </div>
                   <div class="name">
@@ -339,8 +291,8 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/MySQL.png"
-                      alt="MySQL logo"
+                    src="../assets/img/Languages/MySQL.png"
+                    alt="MySQL logo"
                     />
                   </div>
                   <div class="name">
@@ -352,8 +304,8 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/RXJS-logo.png"
-                      alt="RXJS logo"
+                    src="../assets/img/Languages/RXJS-logo.png"
+                    alt="RXJS logo"
                     />
                   </div>
                   <div class="name">
@@ -365,8 +317,8 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/NestJs-logo.svg"
-                      alt="Nest logo"
+                    src="../assets/img/Languages/NestJs-logo.svg"
+                    alt="Nest logo"
                     />
                   </div>
                   <div class="name">
@@ -380,8 +332,8 @@ responsiveNavItems.map(function (responsiveNavItem) {
                     <img
                       src="../assets/img/Languages/Konva-logo.png"
                       alt="Konva logo"
-                    />
-                  </div>
+                      />
+                    </div>
                   <div class="name">
                     <p>Konva JS</p>
                   </div>
@@ -391,8 +343,8 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Bootstrap-logo.png"
-                      alt="Bootstrap logo"
+                    src="../assets/img/Languages/Bootstrap-logo.png"
+                    alt="Bootstrap logo"
                     />
                   </div>
                   <div class="name">
@@ -404,8 +356,8 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 <div class="language-img">
                   <div class="img text-center">
                     <img
-                      src="../assets/img/Languages/Auth0-Logo.png"
-                      alt="Auth0 logo"
+                    src="../assets/img/Languages/Auth0-Logo.png"
+                    alt="Auth0 logo"
                     />
                   </div>
                   <div class="name">
@@ -424,7 +376,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
         <div class="row">
           <div class="col-12">
             <div
-              id="carouselExampleFade"
+            id="carouselExampleFade"
               class="carousel slide carousel-fade"
               data-bs-ride="carousel"
             >
@@ -488,7 +440,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                   <div class="testimonial text-white">
                     <div class="testimonial-img">
                       <img
-                        src="../assets/img/Headshots/Ethan-img.jpg"
+                      src="../assets/img/Headshots/Ethan-img.jpg"
                         alt="Ethan Johnson Headshot"
                       />
                     </div>
@@ -510,8 +462,8 @@ responsiveNavItems.map(function (responsiveNavItem) {
                   <div class="testimonial text-white">
                     <div class="testimonial-img">
                       <img
-                        src="../assets/img/Headshots/Jonesy-img.jpg"
-                        alt="Michael A. Jones Headshot"
+                      src="../assets/img/Headshots/Jonesy-img.jpg"
+                      alt="Michael A. Jones Headshot"
                       />
                     </div>
                     <div class="testimonial-name">
@@ -536,7 +488,7 @@ responsiveNavItems.map(function (responsiveNavItem) {
                 </div>
               </div>
               <button
-                class="carousel-control-prev"
+              class="carousel-control-prev"
                 type="button"
                 data-bs-target="#carouselExampleFade"
                 data-bs-slide="prev"
@@ -603,13 +555,61 @@ responsiveNavItems.map(function (responsiveNavItem) {
             href="https://www.linkedin.com/in/jarrodpayton/"
             target="_blank"
             ><i class="fab fa-linkedin"></i
-          ></a>
-        </div>
+              ></a>
+            </div>
       </div>
     </section>
   </main>
 </template>
 
+<script setup>
+
+window.addEventListener('DOMContentLoaded', event => {
+
+// Navbar shrink function
+var navbarShrink = function () {
+    const navbarCollapsible = document.body.querySelector('#mainNav');
+    if (!navbarCollapsible) {
+        return;
+    }
+    if (window.scrollY === 0) {
+        navbarCollapsible.classList.remove('navbar-shrink')
+    } else {
+        navbarCollapsible.classList.add('navbar-shrink')
+    }
+
+};
+
+// Shrink the navbar 
+navbarShrink();
+
+// Shrink the navbar when page is scrolled
+document.addEventListener('scroll', navbarShrink);
+
+// Activate Bootstrap scrollspy on the main nav element
+const mainNav = document.body.querySelector('#mainNav');
+if (mainNav) {
+    new bootstrap.ScrollSpy(document.body, {
+        target: '#mainNav',
+        offset: 74,
+    });
+};
+
+// Collapse responsive navbar when toggler is visible
+const navbarToggler = document.body.querySelector('.navbar-toggler');
+const responsiveNavItems = [].slice.call(
+    document.querySelectorAll('#navbarResponsive .nav-link')
+);
+responsiveNavItems.map(function (responsiveNavItem) {
+    responsiveNavItem.addEventListener('click', () => {
+        if (window.getComputedStyle(navbarToggler).display !== 'none') {
+            navbarToggler.click();
+        }
+    });
+});
+
+});
+</script>
 <style scoped>
 @charset "UTF-8";
 
