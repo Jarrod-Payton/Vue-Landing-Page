@@ -49,7 +49,7 @@
         />
         <!-- Masthead Heading-->
         <!-- <RouterLink to="/links"> -->
-        <h1 class="c-w masthead-heading text-uppercase mb-0">Jarrod Payton</h1>
+        <h1 class="c-w masthead-heading text-uppercase mb-0">Jarrod P</h1>
         <!-- </Routerlink> -->
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
