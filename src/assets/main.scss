@@ -1,49 +1,5 @@
 @import 'bootstrap/dist/css/bootstrap.css';
 
-$body-bg: #15133C;
-$primary: #EC994B;
-$secondary: #73777B;
-$success: #EC994B;
-$info: #F1EEE9;
-$warning: #fbcf33;
-$danger: #ea0606;
-$light: #e9ecef;
-$dark: #111927;
-$grey: #cbcbcb;
-
-$font-sans-serif: Open Sans;
-$font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-$gradient: linear-gradient(180deg, hsla(0, 0%, 100%, 0.15), hsla(0, 0%, 100%, 0));
-
-$colors: (
-  "primary": $primary,
-  "secondary": $secondary,
-  "danger": $danger,
-  "success": $success,
-  "warning": $warning,
-  "info": $info,
-  "dark": $dark,
-  "grey": $grey,
-);
-
-$color-ranges: (
-  0: 0,
-  5: 5,
-  10: 10,
-  15: 15,
-  20: 20,
-  25: 25,
-  30: 30,
-  35: 35,
-  40: 40,
-);
-
-$modal-fade-transform: rotate(25deg) scale(.2);
-
 body {
     margin:0;
-}
-
-.rgb1 {
-  padding: 100px;
 }
