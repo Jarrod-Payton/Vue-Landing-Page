@@ -48,9 +48,9 @@
           alt="..."
         />
         <!-- Masthead Heading-->
-        <!-- <RouterLink to="/links"> -->
+        <RouterLink to="/links">
         <h1 class="c-w masthead-heading text-uppercase mb-0">Jarrod P</h1>
-        <!-- </Routerlink> -->
+        </Routerlink>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
           <div class="divider-custom-line"></div>
